@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fingerprint Gesture</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Report Issue</string>
+    <string name="navigation_rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="report_bug">Report Bug</string>
+    <string name="empty"> </string>
+    <string name="whatsapp">Share in WhatsApp</string>
+    <string name="fb">Facebook</string>
+
+</resources>

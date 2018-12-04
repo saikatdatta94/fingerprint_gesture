@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/ic_play_store"
+            android:title="@string/navigation_rate_us" />
+        <item
+            android:id="@+id/share_app"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share_app" />
+        <item
+            android:id="@+id/report_bug"
+            android:icon="@drawable/ic_bug_report_black_24dp"
+            android:title="@string/report_bug" />
+    </group>
+
+    <group ></group>
+    <item android:title="@string/empty">
+        <menu>
+            <item
+                android:id="@+id/nav_share_whatsapp"
+                android:icon="@drawable/ic_whatsapp"
+                android:title="@string/whatsapp" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/fb" />
+        </menu>
+    </item>
+
+</menu>
